@@ -7,6 +7,7 @@ void main (){
   print("votre age est $age");
 } on FormatException catch (e) {
   print("format invalide!");
-
+}finally{
+  print("fin d'operation");
 }
 }
